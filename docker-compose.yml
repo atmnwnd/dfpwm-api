@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  dfpwm-api:
+    container_name: dfpwm-api
+    build: .
+    ports:
+      - 8000:8000
